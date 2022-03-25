@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Jeu du pendu</string>
+    <string name="guess_word">mot à deviner</string>
+    <string name="input_word">Saisir la lettre ou le mot correspondant</string>
+    <string name="valid">Valider</string>
+    <string name="generate">Autre mot</string>
+    <string name="try_limite">Nombre d\'essai : </string>
+    <string name="try_counter">Nombre de coups : </string>
+    <string name="score_counter">Score : </string>
+    <string name="guess">Deviner</string>
+    <string name="pendu">Désolée vous avez dépassez le nombre d\'essai !</string>
+    <string name="uncoup">Bravo vous avez connu le mot d\'un seul coup !</string>
+    <string name="rater">Dommage vous avez raté !</string>
+    <string name="introuvable">Lettre incorrect !</string>
+    <string name="title">Title</string>
+    <string name="content">content</string>
+    <string name="ok">OK</string>
+    <string name="cancel">cancel</string>
+    <string name="guessed_word">Le mot à deviner était</string>
+
+
+</resources>

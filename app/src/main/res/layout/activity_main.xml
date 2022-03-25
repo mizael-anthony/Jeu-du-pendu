@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayoutHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview_try_limite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        android:textColor="@color/white"
+        android:text="@string/try_limite"
+        android:gravity="center"
+        android:layout_margin="@android:dimen/app_icon_size"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textview_guess_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_500"
+        android:text="@string/guess_word"
+        android:fontFamily="casual"
+        android:gravity="center"
+
+        />
+
+    <EditText
+        android:id="@+id/edittext_input_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_word"
+        android:fontFamily="casual"
+        android:textSize="15dp"
+        android:layout_margin="20dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textview_try_counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/try_counter"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textview_score_counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score_counter"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        >
+
+    <Button
+        android:id="@+id/button_valid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/green"
+        android:text="@string/valid"
+        />
+
+    <Button
+        android:id="@+id/button_guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/red"
+        android:text="@string/guess"
+        />
+
+        <Button
+            android:id="@+id/button_generate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/generate"
+            app:backgroundTint="@color/blue" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

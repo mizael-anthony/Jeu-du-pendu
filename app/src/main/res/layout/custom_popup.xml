@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:fontFamily="casual"
+        android:background="@color/design_default_color_primary_dark"
+        android:textColor="@color/yellow"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textview_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/button_positive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            app:backgroundTint="@color/green"
+            />
+
+        <Button
+            android:id="@+id/button_negative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            app:backgroundTint="@color/red"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
